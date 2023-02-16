@@ -1,0 +1,435 @@
+    @media(max-width:1200px){
+        .container{
+            max-width: 960px;
+        }
+        .iphone-item{
+            width: 215px;
+        }
+    }
+    @media(max-width:960px){
+        .container{
+            max-width: 720px;
+        }
+        .nav{
+            max-width: 100%;
+        }
+        .background-title{
+            font-size: 80px;
+            line-height: 42px;
+        }
+        .background-link{
+            margin: 0 140px ;
+        }
+        .intro{
+            height: 470px;
+        }
+        .vacuum-content{
+            padding-top: 0px;
+        }
+        .vacuum-img{
+            max-width: 40%;
+        }
+        .vacuum-text{
+            font-size: 15px;
+            width: 280px;
+        }
+        .black-img{
+            max-width: 40%;
+        }
+        .black-text{
+            font-size: 12px;
+            width: 370px;
+        }
+        .pods-content{
+            padding-top: 15px;
+        }
+        .pods-text,
+        .pods-text2{
+            font-size: 15px;
+            width: 325px ;
+        }
+        .pods-img{
+            width: 20%;
+            margin: 10px 40px;
+        }
+        .iphone-item{
+            width: 150px;
+            height: 232px;
+        }
+        .iphone-title{
+            font-size: 15px;
+        }
+        .iphone-img{
+            width: 50px;
+        }
+        .iphone-img:nth-of-type(1){
+            width: 80px;
+            height: 100px;
+        }
+        .iphone-link{
+            font-size: 15px;
+            padding: 6px 45px;
+        }
+         .footer-logo{
+            padding-right: 3px;
+        }
+        .footer-list{
+            padding:0 84px ;
+        }
+        .footer-image{
+            display: flex;
+        }
+    }
+    @media(max-width:720px){
+        .container{
+            max-width: 600px;
+        }
+        .background-title{
+            font-size: 70px;
+            padding-left: 40px;
+        }
+        .background-link{
+            margin-left: 160px;
+            font-size: 15px;
+        }
+        .nav-content{
+            flex-direction: column;
+            align-items: center;
+            margin-left: 250px;
+        }
+        .nav-logo{
+            margin-bottom: 15px;
+            margin-left: 25px;
+        }
+        .nav-link{
+            font-size: 15px;
+            margin: 0 10px;
+        }
+        .nav-icon{
+            display: flex;
+            margin-left: 20px;
+            margin-top: 65px;
+        }
+        .black-text {
+            font-size: 15px;
+            width: 370px;
+            padding-left: 54px;
+        }
+        .pods-text,
+        .pods-text2{    
+            font-size: 15px;
+            line-height: 18px;
+        }
+        .iphone-title{
+            font-size: 10px;
+            margin: -10px;
+        }
+        .iphone-img{
+            margin: 5px 0 5px;
+        }
+        .iphone-img:nth-of-type(1) {
+            width: 70px;
+            height: 85px;
+        }
+        .iphone-text{
+            font-size: 10px;
+            margin: -10px;
+        }
+        .iphone-link{
+            font-size: 10px;
+            padding: 4px 36px;
+        }
+        .iphone-item {
+            width: 130px;
+            height: 190px;
+        }
+        .iphone {
+            width: 100%;
+            margin-top: -35px;
+        }
+        .footer-logo{
+            width: 80px;
+        }
+        .footer-link{
+            font-size: 15px;
+        }
+        .footer-image{
+            height: 40px;
+            width: 80px;
+        }
+        .footer-list {
+            padding: 0px 78px;
+        }
+        .footer-content{
+            margin-right: 35px;
+        }
+        .visa{
+            padding-right: 13px;
+        }
+        
+    }
+    @media(max-width:600px){
+        .nav-content{
+            margin-left: 190px;
+        }
+        .background-title{
+            font-size: 50px;
+            margin-left: 47px;
+            line-height: 5px;
+            margin-top: -60px;
+        }
+        .background-link{
+            font-size: 10px;
+        }
+        .intro{
+            height: 330px;
+        }
+        .vacuum-text{
+            font-size: 10px;
+            width: 285px;
+        }
+        .vacuum-img{
+            max-width: 30%;
+        }
+        .black-img{
+            max-width: 30%;
+        }
+        .black-text{
+            font-size: 10px;
+            width: 285px;
+        }
+        .black-pods_contemt{
+            margin-top: -20px;
+        }
+        .pods-text,
+        .pods-text2{
+            font-size: 10px;
+
+        }
+        .pods-img{
+            max-width: 15%;
+        }
+        .iphone{
+            max-width: 50%;
+            flex-direction: column;
+        }
+        .iphone-item{
+            width: 255px;
+            height: 312px;
+        } 
+        .iphone-item:nth-of-type(n+2){
+            margin-top: 20px;
+        }
+        .iphone-img:nth-of-type(n+1){
+            width: 115px;
+            height: 150px;
+        }
+        .iphone-title{
+            font-size: 25px;
+            margin: 10px;
+        }
+        .iphone-text{
+            font-size: 20px;
+            margin-top: 3px;
+        }
+        .iphone-link{
+            font-size: 15px;
+        }
+        .footer-content{
+            flex-direction: column;
+        }
+        .footer-list{
+            margin: 10px;
+        }
+        .footer-logo{
+            margin-left: 20px;
+        }
+        .footer-image{
+            margin-left: -50px;
+        }
+       
+    }
+    @media(max-width:540px){
+        .nav-content{
+            margin-left: 165px;
+        }
+        .footer{
+            margin-top: 20px;
+        }
+        .footer-content{
+            margin-left: 35px;
+        }
+    }
+    @media(max-width:450px){
+        .iphone{
+            margin-left: 90px;
+        }
+        .nav-content{
+            margin-left: 30px;
+        }
+        .nav{
+            flex-direction: column;
+        }
+        .nav-icon{
+            margin: 0 0 10px;
+            margin-left: 20px;
+        }
+        .nav-logo{
+            margin-left: -5px;
+        }
+        .nav-list{
+            margin: -15px 0 0;
+        }
+        .intro{
+            height: 220px;
+        }
+        .background-content{
+            margin-top: 140px;
+        }
+        .background-title{
+            font-size: 45px;
+        }
+        .background-link{
+            padding: 8px 9px;
+        }
+        .vacuum-content{
+            flex-direction: column;
+        }
+        .vacuum-text{
+            margin-left: 80px;
+        }
+        .vacuum-img{
+            max-width: 55%;
+            margin-top: 5px;
+            margin-left: 100px;
+        }
+        .black-pods_contemt{
+            flex-direction: column;
+        }
+        .black-img{
+            max-width: 55%;
+            margin-left: 100px;
+        }
+        .black-text{
+            width: 350px;
+            margin-left: 20px;
+        }
+        .pods-content{
+            flex-direction: column;
+        }
+        .pods-text{
+            width: 370px;
+        }
+        .pods-text2{
+            margin-left: 50px;
+        }
+        .pods-img{
+            max-width: 20%;
+            margin-left: 165px;
+        }
+    }
+    @media(max-width:400px){
+        .intro{
+            height: 200px;
+        }
+        .background-title{
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+        .background-link{
+            font-size: 5px;
+        }
+        .vacuum-content{
+            margin-top: -20px;
+        }
+        .vacuum-text{
+            margin-left: 55px;
+        }
+        .black-text{
+            margin-left: 0;
+        }
+        .pods-content{
+            margin-left: -15px;
+        }
+        .iphone{
+            margin-left: 65px;
+        }
+    }
+    @media(max-width:350px){
+        .intro{
+            height: 150px;
+        }
+        .background-title{
+            font-size: 25px;
+            margin-top: -75px;
+            margin-left: 70px;
+        }
+        .background-link{
+            font-size: 3px;
+        }
+        .vacuum-text{
+            text-align: center;
+            width: 285px;
+            margin-left: 20px;
+        }
+        .vacuum-img{
+            margin-left: 80px;
+        }
+        .black-img{
+            margin-left: 80px;
+        }
+        .black-text{
+            text-align: center;
+            width: 300px;
+            margin-left: -10px;
+        }
+        .pods-text{
+            width: 285px;
+            text-align: center;
+            margin-left: 37px;
+        }
+        .pods-img{
+            margin-left: 150px;
+        }
+        .pods-text2{
+            width: 285px;
+            text-align: center;
+            margin-left: 37px;
+        }
+        .iphone{
+            margin-left: 40px;
+        }
+        .footer-list{
+            width: 285px;
+            margin-left: -85px;
+        }
+    }
+    @media(max-width:320px){
+        .background-title{
+            margin-left: 55px;
+        }
+        .background-link{
+            font-size: 0;
+        }
+        .vacuum-text{
+            margin-left: 7px;
+        }
+        .vacuum-img{
+            margin-left: 70px;
+        }
+        .black-text{
+            margin-left: -25px;
+        }
+        .pods-text{
+            margin-left: 25px;
+        }
+        .pods-img{
+            margin-left: 135px;
+        }
+        .pods-text2{
+            margin-left: 25px;
+        }
+        .iphone{
+            margin-left: 22px;
+        }
+    }

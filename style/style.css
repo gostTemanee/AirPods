@@ -1,0 +1,236 @@
+@import "font.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    background: #151515;
+    font-family: 'Montserrat';
+}
+body,
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1120px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.nav-link{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.search{
+    color: #FFFFFF;
+}
+.bag{
+    color: #FFFFFF;
+    margin-left: 25px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #282828;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.nav-link{
+    margin-left: 30px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.nav-content{
+    display: flex;
+    margin-left: 225px;
+    padding: 6px;
+}
+.nav-icon{
+    margin-right: 248px;
+}
+/* main */
+/* background */
+.intro{
+    background: url(../image/background.png) center / cover no-repeat;  
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+.background-content{
+    margin-top: 204px;
+
+}
+.background-title{
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 75px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.background-link{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 13px 14px;
+    text-transform: uppercase;
+    color: #171718;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 208px ;
+}
+/* background */
+/* vacuum */
+.vacuum-content{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.vacuum-text{
+    display: flex;
+    align-items: center;
+    width: 538px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.vacuum-img{
+    margin-left: 30px;
+}
+/* vacuum */
+/* blsck-pods */
+.black-pods_contemt{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.black-text{
+    display: flex;
+    align-items: center;
+    width: 540px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    padding-left: 87px;
+    color: #FFFFFF;
+}
+/* blsck-pods */
+/* pods */
+.pods-content{
+    display: flex;
+    justify-content: center;
+}
+.pods-text{
+    width: 333px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+.pods-text2{
+    width: 333px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;  
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+.pods-img{
+    margin: 50px 88px ;
+    display: flex;
+}
+/* pods */
+/* iphone */
+.iphone{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.iphone-item{
+    width: 255px;
+    height: 312px;
+    background: #FFFFFF;
+    border-radius: 6px; 
+}
+.iphone-content{
+    text-align: center;
+    display: block;
+}
+.iphone-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.iphone-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.iphone-link{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 7px 57px;
+    background: #151515;
+}
+/* iphone */
+.footer{
+    background: #282828;
+    box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
+    margin-top: 55px;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+.footer-logo{
+    padding-right: 250px;
+}
+.footer-list{
+    display: flex;
+    align-items: center;
+    padding-right: 215px;
+}
+.footer-link{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    padding-left: 30px;
+    color: #FFFFFF;
+}
+.visa{
+    padding-right: 20px;
+}
+
+/* main */
